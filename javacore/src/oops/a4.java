@@ -51,7 +51,7 @@ class AbstClassP6ex extends MyClass3{
 
 public class a4 {
     public static void main(String[] args) {
-        person user1 = new person("Priyanshi");
+        person user1 = new person("Shivansh");
         System.out.println(user1.getname());
       
         new AbstClassP3ex().display();
