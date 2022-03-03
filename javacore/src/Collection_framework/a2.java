@@ -2,7 +2,7 @@ package Collection_framework;
 
 import java.util.HashSet;
 import java.util.Set;
-    public class collectionQ2 {
+    public class a2 {
         public static void main(String[] args) {
             Set<Integer> objects= new HashSet<>();
             objects.add(1);
