@@ -9,7 +9,7 @@
     <bean id="customer" class="Customer">
         <property name="customerAddress" ref="address"/>
         <property name="customerId" value="20"/>
-        <property name="customerName" value="Ravi"/>
+        <property name="customerName" value="Shivansh"/>
         <property name="customerContact" value="1234567890"/>
     </bean>
 
