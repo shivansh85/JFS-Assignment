@@ -1,7 +1,7 @@
 public class Customer {
-    private int customerId;
-    private String customerName;
-    private String customerContact;
+    private int cstId;
+    private String cstName;
+    private String cstNumber;
 
     public Customer() {
     }
@@ -9,39 +9,39 @@ public class Customer {
     private Address customerAddress;
 
 
-    public Customer(int customerId, String customerName, String customerContact,
+    public Customer(int cstId, String cstName, String cstNumber,
                     Address customerAddress) {
-        this.customerId = customerId;
-        this.customerName = customerName;
-        this.customerContact = customerContact;
+        this.customerId = cstId;
+        this.customerName = cstName;
+        this.customerContact = cstNumber;
         this.customerAddress = customerAddress;
     }
 
-    public int getCustomerId() {
-        return customerId;
+    public int getcstId() {
+        return cstId;
     }
 
-    public String getCustomerName() {
-        return customerName;
+    public String getcstName() {
+        return cstName;
     }
 
-    public String getCustomerContact() {
-        return customerContact;
+    public String getcstNumber() {
+        return cstNumber;
     }
 
     public Address getCustomerAddress() {
         return customerAddress;
     }
 
-    public void setCustomerId(int customerId) {
-        this.customerId = customerId;
+    public void setcstId(int cstId) {
+        this.cstId = cstId;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
+    public void setcstName(String cstName) {
+        this.cstName = cstName;
     }
 
-    public void setCustomerContact(String customerContact) {
+    public void setcstNumber(String cstNumber) {
         this.customerContact = customerContact;
     }
 
@@ -52,9 +52,9 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{\n" +
-                "customerId=" + customerId +
-                ", \ncustomerName='" + customerName + '\'' +
-                ", \ncustomerContact='" + customerContact + '\'' +
+                "customerId=" + cstId +
+                ", \ncustomerName='" + cstName + '\'' +
+                ", \ncustomerContact='" + cstNumber + '\'' +
                 ", \ncustomerAddress=" + customerAddress +
                 '}';
     }
